@@ -1,0 +1,189 @@
+@import url('./font.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* header */
+
+
+header{
+    width: 100%;
+    font-family: "San Francisco";
+    display: flex;
+}
+
+.header_top{
+    width: 100%;
+    padding: 50px 176.33px 141.44px 176px;
+    display: flex;
+    align-items: center;
+    gap: 117px;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    cursor: pointer;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#nav{
+    width: 100%;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav ul li a{
+    color: #000;
+    text-align: center;
+    font-size: 17.822px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21.387px;
+}
+
+.circle{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: #000053;
+    font-family: "Space Grotesk";
+}
+
+.footerTop{
+    width: 100%;
+    padding: 48px 0px 48px 153px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.40);;
+}
+    
+.footerText{
+    max-width: 323px;
+    color: #FFF;
+    font-size: 15.059px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25.816px;
+    letter-spacing: -0.161px;
+    margin-top: 14px;
+}
+
+.footerBottom{
+    padding: 29.02px 138px 24.98px 153px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerLogo{
+    max-width: 202px;
+}
+.numberBody{
+    display: flex;
+    gap: 20.86px;
+}
+
+.social-media{
+    display: flex;
+    gap: 37.55px;
+}
+
+
+.numberBody p{
+    color: #FFF;
+    font-size: 15.688px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25.213px;
+}
+
+
+.menu-icon{
+    display: none;
+  }
+
+
+  /* Hamburger Menu */
+
+.menu-icon {
+    cursor: pointer;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -75%;
+    width: 75%;
+    height: 100%;
+    background-color: #fff;
+    padding: 40px 60px 40px 20px;
+    box-sizing: border-box;
+    z-index: 999;
+    transition: left 0.5s;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    margin-bottom: 30px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-size: 17.822px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21.387px; 
+  }
+
+
+  .fa-close:before, .fa-multiply:before, .fa-remove:before, .fa-times:before, .fa-xmark:before{
+    font-size: 30px;
+  }
+  
